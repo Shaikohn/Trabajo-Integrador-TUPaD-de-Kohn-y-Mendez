@@ -1,0 +1,5 @@
+# Listas
+# Cada una representa un conjunto de elementos que pueden ser parte del inventario de un supermercado.
+bebidas = ["agua", "jugo", "gaseosa", "cerveza", "vino"]
+herramientas = ["martillo", "destornillador", "alicate", "llave inglesa", "sierra", "taladro", "nivel", "cinta métrica", "pinzas", "cúter", "escalera", "pala", "azadón", "carretilla", "brocha", "rodillo", "lija", "cepillo de alambre"]
+alimentos = ["manzana", "banana", "naranja", "pera", "uva", "tomate", "lechuga", "cebolla", "ajo", "pimiento", "zanahoria", "pepino", "brócoli", "espinaca", "calabacín", "berenjena", "piña", "sandía", "melón", "fresa", "frambuesa", "arándano", "mora", "kiwi", "cereza", "limón", "lima", "mandarina", "pomelo", "coco", "papaya", "mango", "aguacate", "chirimoya", "granada", "higo", "ciruela", "durazno", "nectarina"]
