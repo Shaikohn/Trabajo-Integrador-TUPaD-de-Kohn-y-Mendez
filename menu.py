@@ -79,5 +79,6 @@ def seleccion_de_busqueda_segun_length(lista, producto):
     if len(lista) < 10:
         busqueda.busqueda_lineal(lista, producto)
     else:
-        # Si la lista tiene 10 o más elementos, se utiliza busqueda binaria
-        busqueda.busqueda_binaria(lista, producto)
+        # Se ordena la lista antes de realizar la busqueda binaria
+        lista_ordenada = ordenamiento.quicksort(lista)
+        busqueda.busqueda_binaria(lista_ordenada, producto)
