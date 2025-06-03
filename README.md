@@ -5,8 +5,7 @@ Este proyecto es una simulación básica del funcionamiento de un sistema de bú
 
 ## 👨‍💻 Autores
 
-Shai Kohn
-Laura Mendez
+Shai Kohn y Laura Mendez
 
 ## 📌 Descripción
 
