@@ -48,14 +48,15 @@ def menu_busqueda():
     print("2. Alimentos")
     print("3. Herramientas")
     lista_opcion = input("Seleccione una opción: ")
-    # Se obliga al usuario a seleccionar una opción válida
     while lista_opcion not in ["1", "2", "3"]:
         print("Opción no válida. Intente de nuevo.")
         lista_opcion = input("Seleccione una opción: ")
+    # Se obliga al usuario a ingresar un producto a buscar
     producto_a_buscar = input("Ingrese el producto a buscar: ")
     while not producto_a_buscar:
         print("El producto no puede estar vacío. Intente de nuevo.")
         producto_a_buscar = input("Ingrese el producto a buscar: ")
+
     if lista_opcion == "1":
         seleccion_de_busqueda_segun_length(bebidas, producto_a_buscar)
     elif lista_opcion == "2":
@@ -68,10 +69,11 @@ def seleccion_de_ordenamiento_segun_length(lista):
     # Si la lista tiene menos de 10 elementos, se utiliza bubble sort
     if len(lista) < 10:
         ordenamiento.bubble_sort(lista)
+        print(lista)
     else:
         # Si la lista tiene 10 o más elementos, se utiliza quicksort
         lista_ordenada = ordenamiento.quicksort(lista)
-        return lista_ordenada
+        print(lista_ordenada)
 
 # Funcion para seleccionar el tipo de busqueda según la longitud de la lista
 def seleccion_de_busqueda_segun_length(lista, producto):
