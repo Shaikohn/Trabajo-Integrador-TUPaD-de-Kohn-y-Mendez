@@ -35,6 +35,13 @@ El objetivo principal es demostrar la relevancia y de los algoritmos de búsqued
 
 ---
 
+## 📌 Links
+
+Presentacion en Youtube: https://www.youtube.com/watch?v=_ZAKUBSOmBo
+Informe: puede encontrarse en este mismo reposotorio o a traves del siguiente link https://drive.google.com/file/d/1bd2h5XNmwQSzt_E73Hs4Vsu0nYiCRZPN/view?usp=sharing
+
+---
+
 ## ▶️ Cómo ejecutar
 
 1. Asegurate de tener **Python 3** instalado en tu PC.
